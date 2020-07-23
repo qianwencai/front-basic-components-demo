@@ -3,6 +3,9 @@
     "target": "esnext",
     "module": "esnext",
     "strict": true,
+    "declaration": true,
+    "declarationDir": "types",
+    "outDir": "dist",
     "jsx": "preserve",
     "importHelpers": true,
     "moduleResolution": "node",
@@ -16,7 +19,7 @@
       "jest"
     ],
     "paths": {
-      "@/*": [
+      "$bc/*": [
         "src/*"
       ]
     },
